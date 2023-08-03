@@ -1,0 +1,82 @@
+/* *{
+  box-sizing: content-box;
+} */
+
+.board{
+  background-color: rgb(255, 220, 106);
+  height: 300px;
+  width: 200px;
+  border: 5px solid black;
+
+}
+
+/* table { 
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+  
+} */
+
+h1 {
+  text-align: center;
+  color: darkblue;
+
+}
+
+h2 {
+  text-align: center;
+  color: darkblue;
+}
+
+.clock {
+
+  margin: auto;
+  height: 40px;
+  width: 120px;
+  background: linear-gradient(rgb(177, 170, 170), rgb(195, 219, 17));
+  border: 2px solid rgb(197, 162, 37);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  
+
+}
+
+.game-btn {
+  display: block;
+  text-align: center;
+  margin: auto;
+  /* margin-left: 50%; */
+}
+
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  margin: auto;
+}
+
+table:hover {
+
+  cursor: pointer;
+}
+
+table tr td {
+  margin: auto;
+  padding: 30px;
+  background-color: green;
+  border: 1px solid gray;
+}
+
+/* table tr td:nth-child(even) {
+  background-color: crimson;
+}
+
+table tr td:nth-child(odd) {
+  background-color: cornflowerblue;
+} */
