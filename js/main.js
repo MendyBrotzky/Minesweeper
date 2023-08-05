@@ -170,12 +170,14 @@ function onCellClicked(elCell, i, j) {
   } else if (currCell.minesAroundCount > 0) {
     elCell.innerText = currCell.minesAroundCount
     currCell.isShown = true
+    gGame.shownCount++
 
 
 
   } else {
     elCell.style.backgroundColor = 'blue'
     currCell.isShown = true
+    gGame.shownCount++
 
   }
 
@@ -197,12 +199,12 @@ function onCellClicked(elCell, i, j) {
         if (gBoard[m][n].minesAroundCount > 0) {
           elNewCell.innerText = gBoard[m][n].minesAroundCount
           gBoard[m][n].isShown = true
-
+          gGame.shownCount++
 
         } else {
           elNewCell.style.backgroundColor = 'blue'
           gBoard[m][n].isShown = true
-
+          gGame.shownCount++
         }
         // var nRowIdx = gBoard[m][n].location.i
         // var nColIdx = gBoard[m][n].location.j
